@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*
+cada padding y model altera ancho y alto, lo cual no es correcto
+no permite esta alteración
+selector universal especial
+*/
+
+.red{
+    background-color: red;
+    margin: 20px;
+    margin-left: -400px;
+    margin-left: 0;
+    transition: all ease 2s;
+}
+
+.skyblue {
+    background-color: skyblue;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #242424;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    border: 2px solid white;
+    /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;*/
+    padding: 20px;
+}
+
