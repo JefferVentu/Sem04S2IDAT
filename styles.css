@@ -1,3 +1,4 @@
+/* SELECTOR UNIVERSAL */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +6,10 @@
 
 .red{
     background-color: red;
+    /* MARGIN */
     margin: 20px;
+
+    /* MARGENES NEGATIVOS */
     margin-left: -400px;
     margin-left: 0;
     transition: all ease 2s;
@@ -26,14 +30,10 @@ body {
     width: auto;
     height: 200px;
 
-    /*
-        BORDER
-    */
+    /* BORDER */
     border: 1px solid white;
 
-    /*
-        PADDING
-    */
+    /* PADDING */
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 30px;
