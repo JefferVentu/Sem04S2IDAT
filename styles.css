@@ -25,10 +25,17 @@ body {
 .box {
     width: auto;
     height: 200px;
-    border: 2px solid white;
+
+    /*
+        BORDER
+    */
+    border: 1px solid white;
+
+    /*
+        PADDING
+    */
     padding-top: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-bottom: 30px;
-    padding-left: 20px;
 }
 
